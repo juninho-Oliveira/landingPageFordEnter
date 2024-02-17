@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -25,11 +26,21 @@ header {
     gap: 10px;
 }
 
+.botaoPesquisa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .pesquisa>input {
     width: 280px;
     height: 30px;
     border-radius: 5px;
     border: none;
+}
+
+input:focus{
+    outline: none;
 }
 
 .pesquisa>button {
@@ -44,6 +55,7 @@ header {
     background-color: #7DBAF2;
     padding: 2px;
     border: none;
+    cursor: pointer;
 }
 
 .pesquisa>button> img {
@@ -68,6 +80,7 @@ header {
     text-decoration: none;
     transition: 0.8s;
     cursor: pointer;
+    font-weight: 500;
 }
 
 .containernav-ul>li a:hover{
@@ -83,4 +96,45 @@ header {
     background-repeat: none;
     background-position: center;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.containerBanner {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.containerBanner> h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #3D5974;
+}
+
+.containerBanner> p {
+    width: 600px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+.containerBanner> button {
+    width: 375px;
+    height: 60px;
+    border: 3px solid white;
+    background-color: #7DBAF2;
+    border-radius: 0px 20px 0px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+
+.containerBanner> button:hover {
+    font-size: 22px;
 }
