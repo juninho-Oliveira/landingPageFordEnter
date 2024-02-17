@@ -138,3 +138,103 @@ input:focus{
 .containerBanner> button:hover {
     font-size: 22px;
 }
+
+/*grid do container main*/
+.containerMain {
+    display: grid;
+    grid-template-columns: 900px 100%;
+    gap: 15px;
+    padding: 15px;
+    
+}
+
+.containerCards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: column;
+    height: 430px;
+    width: 100%;
+    background-color: #3D5974;
+}
+
+.containerCards> h2 {
+    color: white;
+}
+
+.cardsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 80%;
+}
+
+.containerCards .card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    gap: 5px;
+    border-radius: 10px;
+    width: 200px;
+    cursor: pointer;
+}
+
+
+.containerCards .card img {
+    border-radius: auto 0px 0px;
+    width: 100%;
+}
+
+.containerCards .card p {
+    font-size: 14px;
+    margin: 5px;
+}
+
+.cardsProfissao {
+    border-radius: 10px;
+    width: 320px;
+    text-align: center;
+    background-color: #3D5974;
+}
+.cardsProfissao img {
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+}
+
+.cardsProfissao h5 {
+    color: white;
+    margin: 5px;
+}
+.cardsProfissao> button {
+    width: 230px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 0px 20px 0px 20px;
+    background-color: #3D5974;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+}
+
+aside {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    
+    width: 100%;
+    background-color: #3D5974;
+}
+
