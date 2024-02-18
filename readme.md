@@ -16,4 +16,8 @@ O projeto também enfatiza a importância de uma estruturação de pastas corret
 O site é um protótipo de alta fidelidade de um layout criado no Figma, implementado com HTML e CSS.
 
 <a href="https://www.figma.com/file/QzMOrDZGnpC73wfUS2ODh3/LANDING-PAGE?type=design&node-id=0-1&mode=design&t=8Yp3HnWzSdSdB8Ze-0">Figma</a>
+
 <a href="https://landing-page-ford-enter.vercel.app/">Deploy no Vercel</a>
+
+
+<img src="/ASSETS/IMG/tela1.jpg" style="width: 500px;">
